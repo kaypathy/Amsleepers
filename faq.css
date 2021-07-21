@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    font-size: 4rem;
+    color: #e25050;
+    position:relative;
+    top: -10px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: left;
+    font-size: 5vw;
+    color: #f05050;
+
+    top: 40px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(faqquestions.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}

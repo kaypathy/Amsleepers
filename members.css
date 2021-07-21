@@ -1,0 +1,36 @@
+body {
+    background-image: url(DRAGON.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 5vw;
+    color: #e63e3e;
+
+    top: 40px;
+    font-weight: bold;
+
+
+
+}
+
+header {
+    text-align: center;
+    font-size: 4rem;
+    color: #e63e3e;
+    position:relative;
+    top: -10px;
+    font-weight: bold;
+}
+
+a {
+    color: #e63e3e;
+}
+
+a.hover {
+    color: #fff;
+}

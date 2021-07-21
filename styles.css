@@ -1,0 +1,139 @@
+:root {
+    font-size: 16px;
+    font-family: 'open sans';
+    --text-primary: #b6b6b6;
+    --text-secondaty: #ececec;
+    --bg-primary: #0466c8;
+    --bg-secondary: #141418;
+
+}
+
+body {
+  color:black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url('fpp.png');
+  background-attachment: fixed;
+  height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background:#23232e
+}
+
+main {
+    margin-left: 5rem;
+    padding:1rem;
+
+}
+
+.navbar {
+  width:5rem;
+  height: 100vh;
+  position:fixed;
+  background-color: var(--bg-primary);
+  transition: width 200ms ease;
+}
+
+i{
+  color:#fff0f3;
+  
+}
+i:hover {
+  color:#002855;
+  
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+/*.nav-item:last-child {
+  margin-top: auto;
+}*/
+
+.nav-link {
+  display:flex;
+  align-items: center;
+  height: 5rem;
+  text-decoration: none;
+  color: var(--bg-secondary)
+}
+
+.link-text {
+  display: none;
+  margin-left:1rem;
+}
+
+.navbar:hover {
+  width:8rem;
+}
+
+.navbar:hover .link-text {
+  display:block;
+}
+header {
+  text-align: center;
+  font-size: 4rem;
+  color: #ffffff;
+  position:relative;
+  top: -10px;
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  
+}
+
+.button1 {
+  background-color: rgba(255, 255, 255, 0); 
+  color: #0466c8; 
+  border: 2px solid #0466c8;
+}
+.button1:hover {
+  background-color: #0466c8;
+  color: white;
+}
+div {
+  align-items: center;
+}
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+
+
